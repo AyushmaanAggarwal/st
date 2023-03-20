@@ -6,10 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Source Code Pro Medium:pixelsize=20:antialias=true:autohint=true";
-static int borderpx = 2;
-
-/*
- * What program is execed by st depends of these precedence rules:
+static int borderpx = 2; /* What program is execed by st depends of these precedence rules:
  * 1: program passed with -e
  * 2: scroll and/or utmp
  * 3: SHELL environment variable
@@ -99,24 +96,24 @@ float alpha = 0.6;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#FFFFFF",
+	"#56393e",
 	"#b9a162",
-	"#4f542b",
+	"#d49365",
 	"#f1c682",
-	"#524e43",
+	"#7f89b0",
 	"#b86629",
-	"#83645f",
-	"#98662d",
+	"#eb6b66",
+	"#d5c5ac",
 
 	/* 8 bright colors */
-	"#FFFFFF",
+	"#56393e",
 	"#b9a162",
-	"#4f542b",
+	"#d49365",
 	"#f1c682",
-	"#524e43",
+	"#7f89b0",
 	"#b86629",
-	"#83645f",
-	"#98662d",
+	"#eb6b67",
+	"#d5c5ac",
 
 	[255] = 0,
 
